@@ -1,5 +1,5 @@
-# AI Chatbot Development Instructions
-
+# Lumira AI Chatbot Development Instructions Your intelligent AI copilot for creative coding, blockchain insights, and futuristic automation.
+ 
 ## Overview
 This document provides comprehensive instructions for building an accessible, fast, and delightful AI chatbot application using modern web technologies. The guidelines are structured with **MUST/SHOULD/NEVER** rules to ensure consistent, high-quality implementation.
 
