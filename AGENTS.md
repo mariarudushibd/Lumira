@@ -1,6 +1,25 @@
 # Lumira AI Chatbot Development Instructions Your intelligent AI copilot for creative coding, blockchain insights, and futuristic automation.
 
 We are working on https://lumira-vm.vercel.app/
+Model we use https://ai-sdk.dev/providers/ai-sdk-providers/google-generative-ai
+
+AI Elements and why you should use it.
+
+AI Elements is a component library and custom registry built on top of shadcn/ui to help you build AI-native applications faster. It provides pre-built components like conversations, messages and more.
+
+Installing AI Elements is straightforward and can be done in a couple of ways. You can use the dedicated CLI command for the fastest setup, or integrate via the standard shadcn/ui CLI if you've already adopted shadcn's workflow.
+
+npx ai-elements@latest
+npx shadcn@latest add @ai-elements/all
+
+AI Elements is built targeting React 19 (no forwardRef usage) and Tailwind CSS 4.
+
+Installing Components
+You can install AI Elements components using either the AI Elements CLI or the shadcn/ui CLI. Both achieve the same result: adding the selected component’s code and any needed dependencies to your project.
+
+The CLI will download the component’s code and integrate it into your project’s directory (usually under your components folder). By default, AI Elements components are added to the @/components/ai-elements/ directory (or whatever folder you’ve configured in your shadcn components settings).
+
+After running the command, you should see a confirmation in your terminal that the files were added. You can then proceed to use the component in your code.
  
 ## Overview
 This document provides comprehensive instructions for building an accessible, fast, and delightful AI chatbot application using modern web technologies. The guidelines are structured with **MUST/SHOULD/NEVER** rules to ensure consistent, high-quality implementation.
