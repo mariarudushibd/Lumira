@@ -1,0 +1,31 @@
+@import "tailwindcss";
+@import "katex/dist/katex.min.css";
+
+/* Utility classes and plugins */
+@source '../node_modules/streamdown/dist/index.js';
+@custom-variant dark (&:is(.dark, .dark *));
+@plugin "tailwindcss-animate";
+@plugin "@tailwindcss/typography";
+
+/* Design tokens (light mode) */
+:root {
+  --background: hsl(0 0% 100%);
+  --foreground: hsl(240 10% 3.9%);
+  --primary: hsl(240 5.9% 10%);
+  --primary-foreground: hsl(0 0% 98%);
+  /* ... other tokens */
+}
+
+/* Design tokens (dark mode) */
+.dark {
+  --background: hsl(240 10% 3.9%);
+  --foreground: hsl(0 0% 98%);
+  /* ... dark mode tokens */
+}
+
+/* Theme definitions */
+@theme {
+  --font-sans: var(--font-geist);
+  --font-mono: var(--font-geist-mono);
+  /* ... other theme variables */
+}
