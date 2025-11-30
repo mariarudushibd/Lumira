@@ -5,6 +5,9 @@ Model we use https://ai-sdk.dev/providers/ai-sdk-providers/google-generative-ai
 
 Repo we are working on https://github.com/mariarudushibd/Lumira/
 
+Logo .Lumira/logo.png
+Banner .Lumira/Generated Image November 30, 2025 - 4_57AM.png
+
 AI Elements and why you should use it.
 
 AI Elements is a component library and custom registry built on top of shadcn/ui to help you build AI-native applications faster. It provides pre-built components like conversations, messages and more.
