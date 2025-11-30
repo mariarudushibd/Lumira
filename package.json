@@ -1,0 +1,51 @@
+{
+  "name": "lumira",
+  "version": "0.1.0",
+  "private": true,
+  "packageManager": "pnpm@9.4.0",
+  "dependencies": {
+    "next": "16.x.x",
+    "react": "19.x.x",
+    "react-dom": "19.x.x",
+    "ai": "5.x.x",
+    "@ai-sdk/react": "2.x.x",
+    "@ai-sdk/provider": "2.x.x",
+    "tailwindcss": "4.x.x",
+    "class-variance-authority": "^0.7.x",
+    "clsx": "^2.x.x",
+    "tailwind-merge": "^2.x.x",
+    "lucide-react": "^0.x.x",
+    "radix-ui": "^1.x.x",
+    "@radix-ui/react-icons": "^1.x.x",
+    "sonner": "^1.x.x",
+    "next-auth": "5.0.0-beta.30",
+    "drizzle-orm": "^0.x.x",
+    "postgres": "^3.x.x",
+    "zod": "^3.x.x",
+    "date-fns": "^4.x.x",
+    "swr": "^2.x.x",
+    "usehooks-ts": "^3.x.x"
+  },
+  "scripts": {
+    "dev": "next dev --turbo",
+    "build": "tsx lib/db/migrate && next build",
+    "start": "next start",
+    "lint": "npx ultracite@latest check",
+    "format": "npx ultracite@latest fix",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "npx tsx lib/db/migrate.ts",
+    "db:studio": "drizzle-kit studio",
+    "test": "export PLAYWRIGHT=True && pnpm exec playwright test"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.8.3",
+    "@playwright/test": "^1.45.3",
+    "@types/node": "^20.14.12",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "drizzle-kit": "^0.23.0",
+    "tsx": "^4.16.2",
+    "typescript": "^5.5.4",
+    "ultracite": "^6.3.8"
+  }
+}
